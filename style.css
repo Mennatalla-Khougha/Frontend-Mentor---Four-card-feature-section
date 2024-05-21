@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 98%);
+    height: 100vh; 
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+
+}
+
+.main-screen {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-large {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    padding: 0%;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: hsl(230, 17%, 14%);
+    margin: 0%;
+    padding: 0%;
+}
+
+h2 {
+    color: hsl(230, 17%, 14%);
+    margin: 0;
+    padding: 0;
+}
+
+.desc-small {
+    width: 70%;
+    margin: 0;
+    padding: 0%;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.grouped {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0px 8px 8px 8px hsl(240, 6%, 90%);
+    border-radius: 5px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 170px;
+}
+
+img {
+    align-self: flex-end;
+}
+
+.Supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.Team {
+    border-top: 5px solid hsl(0, 94%, 40%);
+}
+
+.Karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.Calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
