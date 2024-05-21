@@ -11,6 +11,8 @@ body {
     height: 100vh; 
     font-size: 15px;
     color: hsl(229, 6%, 66%);
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -29,6 +31,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .desc-large {
@@ -77,7 +80,7 @@ h2 {
 
 .card {
     background-color: white;
-    box-shadow: 0px 8px 8px 8px hsl(240, 6%, 90%);
+    box-shadow: 0px 4px 8px 4px  hsl(194, 12%, 79%);
     border-radius: 5px;
     padding: 2em;
     display: flex;
@@ -106,3 +109,61 @@ img {
     border-top: 5px solid hsl(212, 86%, 64%);
 }
 
+@media (max-width: 1200px) {
+    /* .main-screen {
+        height: 100%;
+    } */
+
+    body {
+        height: 100%;
+        /* width: 100%; */
+    }
+
+    .main-screen {
+        height: 100%;
+        /* width: 90vw; */
+    }
+
+    .desc-large {
+        font-size: 1.5rem;
+        font-weight: 200;
+        margin-top: 20px;
+        margin-bottom: 0;
+        padding: 0%;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: hsl(230, 17%, 14%);
+        margin: 0%;
+        padding: 0%;
+    }
+
+
+
+    .desc-small {
+        width: 50%;
+        margin: 0;
+        padding: 0%;
+        text-align: center;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2em;
+    }
+    .card {
+        width: 280px;
+    }
+}
+@media (max-width: 700px) {
+    .desc-small {
+        width: 100%;
+        margin: 0;
+        padding: 0%;
+        text-align: center;
+    }
+}
